@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "AudiLogo.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

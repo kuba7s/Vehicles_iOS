@@ -1,0 +1,15 @@
+{
+  "originHash" : "a1b4042f6c2766f824d06f5b05a47510032d78f77bdb588405047fa0bc7cfcef",
+  "pins" : [
+    {
+      "identity" : "tinyconstraints",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/roberthein/TinyConstraints",
+      "state" : {
+        "revision" : "3262e5c591d4ab6272255df2087a01bbebd138dc",
+        "version" : "4.0.2"
+      }
+    }
+  ],
+  "version" : 3
+}

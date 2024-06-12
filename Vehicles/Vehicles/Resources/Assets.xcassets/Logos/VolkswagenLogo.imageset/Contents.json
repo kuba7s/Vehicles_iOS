@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "Volkswagen-emblem-2014-1920x1080.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

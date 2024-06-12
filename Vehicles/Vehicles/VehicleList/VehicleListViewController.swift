@@ -206,17 +206,7 @@ class VehicleListViewController: UIViewController {
         present(alertController, animated: true, completion: nil)
     }
 
-// MARK: - Actions
-
-    @objc private func onFiltersButtonTapped() {
-        let filterVC = FiltersViewController(currentList: vehicles, filterAppliedAction: { selectedMake, startingBidRange, showFavouritesOnly in
-
-        })
-        filterVC.modalPresentationStyle = .formSheet
-        present(filterVC, animated: true, completion: nil)
-
-
-    }
+    // MARK: - Actions
 
     @objc private func onSortingButtonTapped() {
         showFilterActionSheet()

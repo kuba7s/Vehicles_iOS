@@ -1,6 +1,6 @@
 # Vehicles iOS App
 
-This repository contains a iOS application for displaying vehicle results based on a JSON dataset. The app allows users to browse, filter, sort, and favorite vehicles. It is implemented using Swift (UI Kit) for iOS.
+This repository contains a iOS application for displaying vehicle results based on a JSON dataset. The app allows users to browse, filter, sort, and favorite vehicles. It is implemented using Swift (UIKit) for iOS.
 
 ## Features
 
@@ -47,16 +47,6 @@ To run the application locally:
 
 - **Unit Tests:** XCTest has been implemented for basic functionality testing.
 - **Manual Testing:** Perform manual testing to ensure all features work correctly across different scenarios.
-
-## Contributing
-
-- Contributions are welcome! Fork the repository and submit a pull request with your enhancements.
-- For major changes, please open an issue first to discuss what you would like to change.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
-
 ---
 
 This README should now accurately reflect the features, setup instructions, and usage guidelines for your Vehicles iOS App repository on GitHub.

@@ -9,7 +9,7 @@ import UIKit
 
 class VehicleDataSource: NSObject, UITableViewDataSource {
 
-    private var viewModels: [VehicleViewModel] = []
+    var viewModels: [VehicleViewModel] = []
     private var vehiclesList: [Vehicle] = []
     
     var onFavoriteButtonTapped: ((Vehicle) -> Void)?

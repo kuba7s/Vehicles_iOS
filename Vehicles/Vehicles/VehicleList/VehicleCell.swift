@@ -70,6 +70,8 @@ class VehicleCell: UITableViewCell {
     
     private var didTapFavoriteButton: (() -> Void)?
     private var shouldShowFavoriteButton: Bool = true
+    
+    var viewModel: VehicleViewModel?
 
     // MARK: - Life cycle methods
 
@@ -92,6 +94,7 @@ class VehicleCell: UITableViewCell {
     func setup(model: VehicleViewModel,
                shouldShowFavoriteButton: Bool = true,
                didTapFavoriteButton: @escaping () -> Void) {
+        self.viewModel = model
         self.didTapFavoriteButton = didTapFavoriteButton
         self.shouldShowFavoriteButton = shouldShowFavoriteButton
         

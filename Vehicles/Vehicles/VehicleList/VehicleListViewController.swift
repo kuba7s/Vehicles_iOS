@@ -33,7 +33,7 @@ class VehicleListViewController: UIViewController {
     private let delegate: VehicleDelegate
 
     var vehicles: [Vehicle] = []
-    private var originalVehiclesList: [Vehicle] = []
+    var originalVehiclesList: [Vehicle] = []
 
     weak var favoritingDelegate: VehicleFavoritingDelegate?
 
@@ -71,7 +71,7 @@ class VehicleListViewController: UIViewController {
         }
     }
 
-    private func updateDataSource(with vehicles: [Vehicle]) {
+    func updateDataSource(with vehicles: [Vehicle]) {
         dataSource.update(with: vehicles)
         self.vehicles = vehicles
         tableView.reloadData()

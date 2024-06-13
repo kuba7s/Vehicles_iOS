@@ -30,6 +30,10 @@
 		C1C3CE792C19E06F0030AEA0 /* FavoriteDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C3CE782C19E06F0030AEA0 /* FavoriteDelegate.swift */; };
 		C1C3CE7B2C19E09E0030AEA0 /* FavoriteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C3CE7A2C19E09E0030AEA0 /* FavoriteDataSource.swift */; };
 		C1C3CE852C1A433D0030AEA0 /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C3CE842C1A433D0030AEA0 /* AlertViewController.swift */; };
+		C1C3CE872C1A684E0030AEA0 /* VehicleServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C3CE862C1A684E0030AEA0 /* VehicleServiceTests.swift */; };
+		C1C3CE8D2C1A6D090030AEA0 /* VehicleDetailDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C3CE8C2C1A6D090030AEA0 /* VehicleDetailDataSource.swift */; };
+		C1C3CE8F2C1A6F370030AEA0 /* VehicleDetailDataSourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C3CE8E2C1A6F370030AEA0 /* VehicleDetailDataSourceTests.swift */; };
+		C1C3CE912C1A71450030AEA0 /* VehicleDataSourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C3CE902C1A71450030AEA0 /* VehicleDataSourceTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +80,10 @@
 		C1C3CE782C19E06F0030AEA0 /* FavoriteDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteDelegate.swift; sourceTree = "<group>"; };
 		C1C3CE7A2C19E09E0030AEA0 /* FavoriteDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteDataSource.swift; sourceTree = "<group>"; };
 		C1C3CE842C1A433D0030AEA0 /* AlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
+		C1C3CE862C1A684E0030AEA0 /* VehicleServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleServiceTests.swift; sourceTree = "<group>"; };
+		C1C3CE8C2C1A6D090030AEA0 /* VehicleDetailDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleDetailDataSource.swift; sourceTree = "<group>"; };
+		C1C3CE8E2C1A6F370030AEA0 /* VehicleDetailDataSourceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleDetailDataSourceTests.swift; sourceTree = "<group>"; };
+		C1C3CE902C1A71450030AEA0 /* VehicleDataSourceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleDataSourceTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +152,9 @@
 			isa = PBXGroup;
 			children = (
 				C1C3CE3C2C1379030030AEA0 /* VehiclesTests.swift */,
+				C1C3CE862C1A684E0030AEA0 /* VehicleServiceTests.swift */,
+				C1C3CE8E2C1A6F370030AEA0 /* VehicleDetailDataSourceTests.swift */,
+				C1C3CE902C1A71450030AEA0 /* VehicleDataSourceTests.swift */,
 			);
 			path = VehiclesTests;
 			sourceTree = "<group>";
@@ -171,6 +182,7 @@
 			children = (
 				C1C3CE742C19B47A0030AEA0 /* VehicleDetailCell.swift */,
 				C1C3CE722C1912350030AEA0 /* VehicleDetailViewController.swift */,
+				C1C3CE8C2C1A6D090030AEA0 /* VehicleDetailDataSource.swift */,
 			);
 			path = VehicleDetail;
 			sourceTree = "<group>";
@@ -366,6 +378,7 @@
 				C1C3CE622C188EC80030AEA0 /* Model.swift in Sources */,
 				C1C3CE7B2C19E09E0030AEA0 /* FavoriteDataSource.swift in Sources */,
 				C1C3CE6B2C1896D70030AEA0 /* VehicleListViewController.swift in Sources */,
+				C1C3CE8D2C1A6D090030AEA0 /* VehicleDetailDataSource.swift in Sources */,
 				C1C3CE752C19B47A0030AEA0 /* VehicleDetailCell.swift in Sources */,
 				C1C3CE262C1379010030AEA0 /* AppDelegate.swift in Sources */,
 				C1C3CE5A2C188A390030AEA0 /* VehicleCell.swift in Sources */,
@@ -384,7 +397,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1C3CE872C1A684E0030AEA0 /* VehicleServiceTests.swift in Sources */,
+				C1C3CE912C1A71450030AEA0 /* VehicleDataSourceTests.swift in Sources */,
 				C1C3CE3D2C1379030030AEA0 /* VehiclesTests.swift in Sources */,
+				C1C3CE8F2C1A6F370030AEA0 /* VehicleDetailDataSourceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

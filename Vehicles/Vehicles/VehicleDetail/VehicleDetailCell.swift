@@ -8,11 +8,11 @@
 import UIKit
 
 class VehicleDetailCell: UITableViewCell {
-    
+
     static let reuseIdentifier = "VehicleDetailCell"
-    
-    private let titleLabel = UILabel()
-    private let valueLabel = UILabel()
+
+    let titleLabel = UILabel()
+    let valueLabel = UILabel()
 
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
@@ -20,20 +20,21 @@ class VehicleDetailCell: UITableViewCell {
     }
 
     required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
+        super.init(coder: coder)
+        setupUI()
     }
-    
+
     private func setupUI() {
         titleLabel.translatesAutoresizingMaskIntoConstraints = false
         valueLabel.translatesAutoresizingMaskIntoConstraints = false
-        
+
         titleLabel.font = .boldSystemFont(ofSize: 16)
         valueLabel.font = .systemFont(ofSize: 16)
         valueLabel.textAlignment = .right
 
         contentView.addSubview(titleLabel)
         contentView.addSubview(valueLabel)
-        
+
         titleLabel.leadingToSuperview(offset: 16)
         titleLabel.centerYToSuperview()
 
@@ -42,7 +43,7 @@ class VehicleDetailCell: UITableViewCell {
 
         titleLabel.trailingToLeading(of: valueLabel, offset: -8)
     }
-    
+
     func configure(withTitle title: String, value: String) {
         titleLabel.text = title
         valueLabel.text = value

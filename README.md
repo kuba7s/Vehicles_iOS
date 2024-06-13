@@ -16,6 +16,12 @@ This repository contains a iOS application for displaying vehicle results based 
 - **Favorite Functionality:**
   - Allows users to mark vehicles as favorites and remove them from favorites.
 
+- **Dark Mode:**
+  - Supports dark mode for a better user experience in low-light environments.
+
+- **App Logo:**
+  - Includes a defined app logo for a polished appearance.
+
 - **Testing:**
   - Includes XCTest for basic testing functionalities.
 
